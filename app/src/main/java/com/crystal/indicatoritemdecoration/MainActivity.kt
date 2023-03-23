@@ -24,20 +24,20 @@ class MainActivity : AppCompatActivity() {
         val adapter = ViewPagerAdapter(this, list)
         binding.viewPager2.adapter = adapter
 
-/*        binding.viewPager2.addItemDecoration(
-            com.crystal.library.ColorItemDecoration(
+        binding.viewPager2.addItemDecoration(
+            ColorItemDecoration(
                 this,
                 8f,
                 8f,
                 16f,
                 8f,
-                ContextCompat.getColor(this, R.color.purple_500),
                 ContextCompat.getColor(this, R.color.purple_200),
+                ContextCompat.getColor(this, R.color.purple_500),
                 8f,
                 0.5f,
                 0.6f
             )
-        )*/
+        )
     }
 
 
